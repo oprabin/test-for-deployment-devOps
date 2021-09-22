@@ -1,0 +1,4 @@
+test_dialogData #class
+test_for_deployment.test_dialog #namespace
+data test_for_deployment.Data #field
+data PERSISTENT #fieldModifier
