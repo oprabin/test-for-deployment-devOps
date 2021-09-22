@@ -35,3 +35,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build the Docker Image
         run: docker build . --file Dockerfile --tag oprabin/test-for-deployment-devops-github-action:$(date +%s)
+        
+      - name: Docker Push
+        run: docker push oprabin/test-for-deployment-devops-github-action
