@@ -30,4 +30,4 @@ stages:
         containerRegistry: 'dockerhub_oprabin'
         tags: |
           $(tag)
-          'latest'
+          latest
