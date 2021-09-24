@@ -9,8 +9,8 @@ resources:
 - repo: self
 
 variables:
-  # tag: '$(Build.BuildId)'
-  tag: 'latest'
+  tag: '$(Build.BuildId)'
+  # tag: 'latest'
 
 stages:
 - stage: Build
@@ -30,3 +30,4 @@ stages:
         containerRegistry: 'dockerhub_oprabin'
         tags: |
           $(tag)
+          latest
